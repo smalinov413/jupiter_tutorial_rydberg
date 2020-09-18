@@ -1,0 +1,17 @@
+name: jupiter_tutorial_rydberg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - qutip
+  - notebook
+  - jupyter_contrib_nbextensions
+  - ipympl
+  - git
+  - pip:
+    - krotov
+  
